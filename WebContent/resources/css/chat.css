@@ -1,0 +1,70 @@
+@charset "EUC-KR";
+@font-face { 
+	font-family: 'Godo'; 
+	font-style: normal; 
+	font-weight: 400; 
+	src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'),
+	 	url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+}
+
+*:focus {
+	outline: none;
+}
+html,body{
+	margin: 0;	
+}
+h2{
+	font-family: 'Godo';
+	font-weight: 400;
+}
+#marginid{
+	margin-block-start: 1.5em;
+}
+
+#fieldset {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+	background-color: white;
+	border: 2px solid #09864c;
+	border-radius: 20px;
+}
+
+#messageWindow {
+	width: 90%;
+	resize: none;
+	border: #bdbebe 2px solid;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 1.5em;
+	font-family: 'Godo';
+	font-weight: 400;
+}
+
+#inputMessage {
+	height: 2em;
+	border: #bdbebe 2px solid;
+	border-radius: 20px;
+	background-color: transparent;
+	width: 80%;
+	padding-left: 10px;
+}
+
+#btn{
+	width: 9%;
+	height: 2em;
+	background-color: #ffffff;
+	border-radius: 20px;
+	color: #09864c;
+	font-size:large;
+	border: #09864c 1px solid;
+	outline: 0;
+	outline-color: #09864c;
+}
+#btn:hover {
+	cursor: pointer;
+	background-color: #09864c;
+	color: #ffffff;
+}

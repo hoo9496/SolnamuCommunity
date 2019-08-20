@@ -1,0 +1,93 @@
+@charset "EUC-KR";
+
+*:focus {
+    outline: none;
+}
+html,body{
+	margin: 0;
+}
+#table tr th {
+	background-color: #bdbebe;
+	height: 3em;
+}
+
+#table tr td {
+	text-align: center; 
+	background-color : #e0e0e0;
+	height: 3em;
+	background-color: #e0e0e0;
+}
+
+#gunsu {
+	width: 60%;
+	margin:0 auto;
+	margin-top: 15px;
+    margin-bottom: 5px;
+	padding-left: 50px;
+	background-color: white;
+	text-align: left;
+	color: #09864c;
+}
+
+#table {
+	min-width: 500px;
+	width: 60%;
+	border-spacing: 0px 15px;
+}
+
+#table tr td:first-child {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#table tr td:last-child {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#table tr th:first-child {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#table tr th:last-child {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+input[type=button] {
+	border: 1px solid #09864c;
+	width: 17%;
+	height: 100%;
+	border-radius: 20px;
+	background-color: #ffffff;
+	cursor: pointer;
+	color: #09864c;
+	font-size:large;
+	outline: 0;
+	outline-color: #09864c;
+}
+
+input[type=button]:hover {
+	cursor: pointer;
+	background-color: #09864c;
+	color: #ffffff;
+}
+input[name=OK] {
+	border: 1px solid #09864c;
+	width: 25%;
+	height: 100%;
+	border-radius: 20px;
+	background-color: #ffffff;
+	cursor: pointer;
+	color: #09864c;
+	font-size: large;
+	outline: 0;
+	outline-color: #09864c;
+}
+
+input[name=OK]:hover {
+	cursor: pointer;
+	background-color: #09864c;
+	color: #ffffff;
+}

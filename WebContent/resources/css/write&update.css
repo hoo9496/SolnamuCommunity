@@ -1,0 +1,102 @@
+*:focus {
+    outline: none;
+}
+html,body{
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+#contents_table {
+  border-collapse: separate;
+  border-spacing: 15px 25px;
+  font-size: large;
+  color: #333333;
+}
+
+#txt{
+	height: 2em;
+	border: #e0e0e0 2px solid;
+	border-radius: 20px;
+	color: #333333;
+	padding-left: 10px;
+}
+
+#txt:focus{
+	border-color: #09864c !important;
+}
+
+.class_txt{
+	height: 2em;
+	border: #e0e0e0 2px solid;
+	border-radius: 20px;
+	color: #333333;
+	padding-left: 10px;
+}
+
+.class_txt:focus{
+	border-color: #09864c !important;
+}
+#txt_contents{
+	resize: none;
+	width: 28.5em;
+	height: 30em;
+	border: #e0e0e0 2px solid;
+	border-radius: 20px;
+	color: #333333;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#txt_contents:focus{
+	border-color: #09864c !important;
+}
+
+#prev_file{
+	border-radius: 20px;
+	background-color: #09864c;
+	color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#file_label{
+	font-size: medium;
+}
+#file #txt{
+	transform: translate(0%,-10%);
+}
+#file img{
+	cursor: pointer;
+	transform: translate(0%,25%);
+}
+#del_file{
+	cursor: pointer;
+    color: red;
+}
+select {
+	width: 80px;
+	height: 25px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none; 
+	background: url(http://hoo9496.cafe24.com/resources/img/select.png) no-repeat 80% 50%;
+    background-size: 60%;
+	padding-left: 7px;
+	padding-bottom: 5px;
+}
+
+#btn{
+	background-color: #ffffff;
+	border-radius: 20px;
+	padding: 20px 30px;
+	color: #09864c;
+	font-size:large;
+	border: #09864c 1px solid;
+	outline: 0;
+	outline-color: #09864c;
+}
+#btn:hover {
+	cursor: pointer;
+	background-color: #09864c;
+	color: #ffffff;
+}

@@ -1,0 +1,66 @@
+*:focus {
+	outline: none;
+}
+html,body{
+	margin: 0;
+}
+#cour_tab{
+	border-collapse: separate;
+	border-spacing: 0 15px;
+}
+
+tr th:first-child{
+	border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+}
+tr th:last-child{
+	border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
+tr th{
+	background-color: #bdbebe;
+}
+
+tr td:first-child{
+	border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+}
+tr td:last-child{
+	border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
+tr td{
+	background-color: #e0e0e0;
+}
+
+#redel{
+	background-color: #e0e0e0;
+	border-radius: 20px;
+	padding: 10px 10px;
+	color: #000000;
+	font-size:small;
+	border-color: #e0e0e0;
+	outline-color: #e0e0e0;
+}
+#redel:hover {
+	cursor: pointer;
+	background-color: #bdbebe;
+	color: #ffffff;
+}
+
+#btntd {
+	background-color: transparent;
+}
+#btn {
+	background-image: url("http://hoo9496.cafe24.com/resources/img/write.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: transparent;
+	border: none;
+	width: 25px;
+    height: 25px;
+}
+#btn:hover {
+	background-image: url("http://hoo9496.cafe24.com/resources/img/write_color.png");
+	cursor: pointer;
+}

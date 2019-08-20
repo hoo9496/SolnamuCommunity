@@ -1,0 +1,163 @@
+@charset "EUC-KR";
+
+*:focus {
+	outline: none;
+}
+html,body{
+	margin: 0;
+}
+#loginNo {
+	background-image: url("http://hoo9496.cafe24.com/resources/img/tree2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0;
+}
+
+#menu {
+	margin: 0;
+}
+
+.menu {
+	width: 25%;
+	height: 90vh;
+	float: left;
+	vertical-align: top;
+	float: left;
+}
+
+label {
+	margin-left: 10px;
+}
+
+.menu:hover {
+	opacity: 1;
+}
+
+.menu.a {
+	background-image: url("http://hoo9496.cafe24.com/resources/img/1.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	filter: grayscale(100%);
+}
+
+.menu.b {
+	background-image: url("http://hoo9496.cafe24.com/resources/img/2.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	filter: grayscale(100%);
+}
+
+.menu.c {
+	background-image: url("http://hoo9496.cafe24.com/resources/img/3.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	filter: grayscale(100%);
+}
+
+.menu.d {
+	background-image: url("http://hoo9496.cafe24.com/resources/img/4.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	filter: grayscale(100%);
+}
+
+#a1:hover .menu.a {
+	filter: grayscale(0%);
+}
+
+#a2:hover .menu.b {
+	filter: grayscale(0%);
+}
+
+#a3:hover .menu.c {
+	filter: grayscale(0%);
+}
+
+#a4:hover .menu.d {
+	filter: grayscale(0%);
+}
+
+#no1 {
+	background-size: 100% 100%;
+	width: 90%;
+	height: 10%;
+	margin-top: 20%;
+	margin-left: 5%;
+}
+
+#no2 {
+	background-size: 100% 100%;
+	width: 90%;
+	height: 10%;
+	margin-top: 20%;
+	margin-left: 5%;
+}
+
+#no3 {
+	background-size: 100% 100%;
+	width: 90%;
+	height: 10%;
+	margin-top: 20%;
+	margin-left: 5%;
+}
+
+#no4 {
+	background-size: 100% 100%;
+	width: 90%;
+	height: 10%;
+	margin-top: 20%;
+	margin-left: 5%;
+}
+
+#container {
+	margin: 0 auto;
+	background-color: rgba(000, 000, 000, 0.5);
+	color: white;
+	width: 500px;
+	height: 100vh;
+	align: center;
+}
+
+#logo {
+	padding-top: 80px;
+	border-collapse: separate;
+	border-spacing: 0 50px;
+}
+
+.txt{
+	height: 2em;
+	border: #e0e0e0 2px solid;
+	border-radius: 20px;
+	background-color: transparent;
+	color: white;
+	padding-left: 10px;
+}
+.txt:focus{
+	border-color: #09864c;
+}
+
+#a5 {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: "monospace";
+}
+
+#a5:hover {
+	color: #09864c;
+}
+
+#login {
+	color: white;
+	border: none;
+	background-color: transparent;
+	font-size: 3em;
+	font-weight: bold; 
+	font-family: "monospace";
+	cursor: pointer;
+}
+
+#login:hover {
+	color: #09864c;
+}

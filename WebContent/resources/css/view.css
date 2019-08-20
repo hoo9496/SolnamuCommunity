@@ -1,0 +1,132 @@
+@charset "EUC-KR";
+.rereplyinput{
+	 align-text: center; 
+}
+html,body{
+	margin: 0;
+}
+#view {
+	padding: 10px;
+	margin: 0 auto;
+	width: 58%;
+	border: 2px solid #09864c;
+	border-radius: 30px;
+	min-height: 10em;
+	padding-top: 1.5em;
+	padding-left: 1.5em;
+}
+
+#img{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#img img{
+	padding-top: 2em;
+}
+#subject {
+	padding-left: 10px;
+	padding-top: 10px;
+	margin: 0 auto;
+	width: 60%;
+	text-align: left;
+	font-size: 2em;
+	color: #333333;
+}
+
+#namedate {
+	margin: 0 auto;
+	width: 60%;
+	overflow: hidden;
+}
+
+#name {
+	padding-left: 10px;
+	float: left;
+}
+
+#date {
+	float: right;
+}
+
+#buttonTable input[type=button] {
+	background-color: #ffffff;
+	border-radius: 30px;
+	padding: 10px 20px;
+	color: #09864c;
+	font-size: large;
+	border: #09864c 1px solid;
+	outline: 0;
+	outline-color: #09864c;
+	display: inline-block;
+}
+#replytable input[type=button] {
+	background-color: #ffffff;
+	border-radius: 30px;
+	padding: 5px 10px;
+	color: #09864c;
+	font-size: large;
+	border: #09864c 1px solid;
+	outline: 0;
+	outline-color: #09864c;
+	display: inline-block;
+}
+#buttonTable input[type=button]:hover, #replytable input[type=button]:hover
+	{
+	cursor: pointer;
+	background-color: #09864c;
+	color: #ffffff;
+}
+
+#replytable {
+	border: 1px;
+	margin: 0 auto;
+	width: 514px;
+	border-spacing: 0px 10px;
+	
+}
+#replytable tr{
+	height: 3em;
+}
+
+#replytable tr td {
+	background-color: #e0e0e0;
+	padding-left: 10px;
+}
+
+#replytable tr td:first-child ,#rereplytr td:nth-child(2){
+	width: 30px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#replytable tr td:last-child ,#rereplytr td:last-child{
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#rereplytr td:first-child{
+	background-color: transparent;
+}
+.textarea{
+	border-radius: 20px;
+	resize: none;
+	padding-left: 10px
+}
+#td_icon{
+	width: 33px;
+}
+#re_icon, .rere_icon{
+	width: 33px;
+	height: 33px;
+	cursor: pointer;
+}
+#td_name{
+	width: 60px;
+}
+#buttonTable {
+	border: 0;
+	margin: 0 auto;
+	width: 514px;
+	text-align: center;
+	border-spacing: 0 15px;
+}

@@ -1,0 +1,118 @@
+*:focus {
+	outline: none;
+}
+html,body{
+	margin: 0;
+}
+#boardList tr th:first-child{
+	border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+}
+#boardList tr th:last-child{
+	border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
+
+#boardList tr td:first-child{
+	border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+}
+#boardList tr td:last-child{
+	border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
+
+#boardList {
+	margin: auto;
+}
+
+#boardList thead {
+	background: #bdbebe;
+	padding: 0px 10px;
+}
+
+#boardList tbody {
+	background: #e0e0e0;
+}
+
+#boardList table {
+	width: 60%;
+	padding: 10px 0px; 
+	border-collapse: separate;
+	border-spacing: 0px 15px;
+	color: #333333;
+}
+
+#href:link {color: #333333; text-decoration: none;}
+#href:visited {color: #333333; text-decoration: none;}
+#href:hover {color: #09864c; text-decoration: underline;}
+
+#paging {
+	margin: 0 auto;
+}
+
+#paging a:link { display: inline; color: white; text-decoration: none; }
+#paging a:visited { color: white; text-decoration: none;}
+#paging a:hover { color: white; text-decoration: none;}
+
+#btn {
+	background-image: url( "http://hoo9496.cafe24.com/resources/img/write.png" );
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: transparent;
+	border: none;
+	width: 25px;
+    height: 25px;
+}
+
+#btn:hover {
+	background-image: url( "http://hoo9496.cafe24.com/resources/img/write_color.png" );
+	cursor: pointer;
+}
+
+/* ¼­Ä¡ css */
+
+#search {
+	border: #e0e0e0 2px solid;
+	background: white;
+	border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+	border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    text-align: left;
+    height: 20px;
+}
+#search:focus{
+	border-color: #09864c;
+}
+#search_find{
+    border-radius : 20px;
+    width: 75px;
+	height: 25px;
+	-webkit-appearance: none;
+	background: url("http://hoo9496.cafe24.com/resources/img/select.png") no-repeat 80% 50%;
+	background-size: 60%;
+	padding-left: 15px;
+	transform: translate(0%, 10%);
+}
+#search_find:focus{
+	border-color: #09864c;
+}
+.inputIcon {
+	position: relative;
+}
+
+.inputIcon input[type=text] {
+	padding-left:10px;
+}
+
+.inputIcon i {
+	position: absolute;
+	padding : 5px 1px;
+	color: #aaa;
+	right: 10px;
+}
+
+.inputIcon input[type=text]:focus + i {
+	color: #09864c;
+}

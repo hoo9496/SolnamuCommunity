@@ -1,0 +1,103 @@
+@charset "EUC-KR";
+
+*:focus {
+	outline: none;
+}
+html,body{
+	margin: 0;
+}
+#loginNo {
+	background-image: url("http://hoo9496.cafe24.com/resources/img/tree2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0;
+}
+
+#container {
+	margin: 0 auto;
+	background-color: rgba(000, 000, 000, 0.5);
+	color: white;
+	width: 500px;
+	height: 100vh;
+	align: center;
+}
+
+#logo {
+	padding-top: 15%;
+	border-collapse: separate;
+	border-spacing: 0 10px;
+}
+label{
+	margin-left: 10px;
+}
+
+#id{
+	height: 2em;
+	border: #e0e0e0 2px solid;
+	border-radius: 30px;
+	background-color: transparent;
+	color: white;
+}
+#a5 {
+	text-decoration: none;
+	color: white;
+	font-size: 1em;
+}
+input[type=text] {
+	height: 2em;
+	border: #e0e0e0 2px solid;
+	border-radius: 30px;
+	background-color: transparent;
+	color: white;
+	padding-left: 10px;
+}
+#id:focus{
+	border-color: #09864c;
+}
+input[type=text]:focus{
+	border-color: #09864c;
+}
+input[type=password] {
+	height: 2em;
+	border: #e0e0e0 2px solid;
+	border-radius: 30px;
+	background-color: transparent;
+	color: white;
+	padding-left: 10px;
+}
+input[type=password]:focus{
+	border-color: #09864c;
+}
+#select{
+	height: 2em;
+	border: #e0e0e0 2px solid;
+	border-radius: 30px;
+	background-color: transparent;
+	color: white;
+}
+#select:focus{
+	border-color: #09864c;
+}
+#option{
+	color:black;
+}
+#reset {
+	color: white;
+	border: none;
+	background-color: transparent;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+#reset:hover{
+	color: #09864c;
+}
+#SignUp {
+	color: white;
+	border: none;
+	background-color: transparent;
+	font-size: 3em;
+	cursor: pointer;
+}
+#SignUp:hover {
+	color: #09864c;
+}
